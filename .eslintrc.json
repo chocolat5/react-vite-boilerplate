@@ -34,12 +34,12 @@
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/triple-slash-reference": "off",
     "import/extensions": [
-        "error",
-        "ignorePackages",
-        {
-          "ts": "never",
-          "tsx": "never"
-        }
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
     ]
   },
   "settings": {
