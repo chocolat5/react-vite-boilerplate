@@ -1,6 +1,6 @@
 # react-vite-boilerplate
 
-Vite + React + TypeScript (ESLint + Prettier + Husky)
+Vite + React + TypeScript (ESLint + Prettier + Husky) + Emotion
 
 ## Demo
 
@@ -28,10 +28,7 @@ npm run dev
 - React
 - ESLint
 - Prettier
-
-## References
-
-参照
+- Emotion
 
 ## Author
 
