@@ -1,8 +1,15 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+import { css } from "@emotion/react";
 // eslint-disable-next-line import/no-absolute-path
 import viteLogo from "/vite.svg";
 import "./App.css";
+
+const styles = {
+  cardStyle: css`
+    padding: 2em;
+  `,
+};
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +25,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
+      <div css={styles.cardStyle}>
         {/* eslint-disable-next-line react/button-has-type, @typescript-eslint/no-shadow */}
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
