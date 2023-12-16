@@ -40,7 +40,9 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/no-unknown-property": ["error", { "ignore": ["css"] }]
   },
   "settings": {
     "react": {
