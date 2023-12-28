@@ -35,10 +35,10 @@
     "@typescript-eslint/triple-slash-reference": "off",
     "import/extensions": [
       "error",
-      "ignorePackages",
       {
         "ts": "never",
-        "tsx": "never"
+        "tsx": "never",
+        "svg": "always"
       }
     ],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
