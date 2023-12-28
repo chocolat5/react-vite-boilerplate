@@ -2,12 +2,6 @@
 
 Vite + React + TypeScript (ESLint + Prettier + Husky) + Emotion
 
-## Demo
-
-TBD
-
-<!-- [TBD](URL) -->
-
 ## Getting Started
 
 1. Local : http://127.0.0.1:5173/
