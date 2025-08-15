@@ -1,6 +1,6 @@
 # react-vite-boilerplate
 
-Vite + React + TypeScript (ESLint + Prettier + Husky)
+Vite + React + TypeScript (ESLint + Prettier)
 
 "+ Emotion" is on another branch  
 -> switch the branch or go to [https://github.com/chocolat5/react-vite-boilerplate/tree/emotion](https://github.com/chocolat5/react-vite-boilerplate/tree/emotion)
