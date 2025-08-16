@@ -5,7 +5,7 @@ Vite + React + TypeScript (ESLint + Prettier)
 
 ## Demo
 
-[https://react-vite-boilerplate-eight.vercel.app/](https://react-vite-boilerplate-eight.vercel.app/)
+[https://react-vite-boilerplate-2024.pages.dev/](https://react-vite-boilerplate-2024.pages.dev/)
 
 ## Getting Started
 
