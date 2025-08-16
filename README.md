@@ -1,6 +1,6 @@
 # react-vite-boilerplate
 
-Vite + React + TypeScript (ESLint + Prettier)
+Vite + React + TypeScript + Emotion (ESLint + Prettier)
 
 ## Demo
 
@@ -24,6 +24,7 @@ npm run dev
 - Vite
 - TypeScript
 - React
+- Emotion
 - ESLint
 - Prettier
 
