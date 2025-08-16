@@ -2,9 +2,6 @@
 
 Vite + React + TypeScript (ESLint + Prettier)
 
-"+ Emotion" is on another branch  
--> switch the branch or go to [https://github.com/chocolat5/react-vite-boilerplate/tree/emotion](https://github.com/chocolat5/react-vite-boilerplate/tree/emotion)
-
 ## Demo
 
 [https://react-vite-boilerplate-eight.vercel.app/](https://react-vite-boilerplate-eight.vercel.app/)
@@ -19,7 +16,7 @@ npm run dev
 
 ## Prerequisites
 
-- Node.js (Vite requires Node.js version 18+. 20+)
+- Node.js (Vite requires Node.js version 20.19+, 22.12+)
 
 ## Built With
 
