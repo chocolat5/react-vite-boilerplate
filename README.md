@@ -4,7 +4,7 @@ Vite + React + TypeScript + Emotion (ESLint + Prettier)
 
 ## Demo
 
-[https://react-vite-boilerplate-eight.vercel.app/](https://react-vite-boilerplate-eight.vercel.app/)
+[https://react-vite-boilerplate.pages.dev/](https://react-vite-boilerplate.pages.dev/)
 
 ## Getting Started
 
