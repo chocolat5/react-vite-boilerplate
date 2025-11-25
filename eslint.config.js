@@ -43,6 +43,22 @@ export default [
           svg: "always",
         },
       ],
+      "simple-import-sort/imports": [
+        "error",
+        {
+          groups: [
+            // React系
+            ["^react$", "^react/"],
+            // 外部ライブラリ
+            ["^@?\\w"],
+            // 内部パス（@/から始まる）
+            ["^@/"],
+            // 相対パス
+            ["^\\."],
+          ],
+        },
+      ],
+      "simple-import-sort/exports": "error",
     },
   },
 ];
