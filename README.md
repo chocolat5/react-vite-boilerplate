@@ -8,29 +8,35 @@ Vite + React + TypeScript + Emotion (ESLint + Prettier)
 
 ## Getting Started
 
-1. Local : http://127.0.0.1:5173/
-
 ```
-npm run dev
+npm install
+npm run dev # http://127.0.0.1:5173/
 ```
 
-## Prerequisites
+### Deployment
 
-- Node.js (Vite requires Node.js version 20.19+, 22.12+)
+```bash
+npm run build  # Creates ./dist/
+```
+
+## Requirements
+
+- Node.js `^20.19.0 || >=22.12.0` (required by Vite 8, see `engines` in `package.json`)
+- npm 9.0.0+
 
 ## Built With
 
-- npm
-- Vite
-- TypeScript
-- React
-- Emotion
-- ESLint
-- Prettier
+- Vite 8
+- React 19
+- TypeScript 6
+- Emotion 11
+- ESLint 9 (flat config) + `eslint-plugin-simple-import-sort`
+- Prettier 3
 
-## References
+### Pinned Versions
 
-参照
+- ESLint stays on 9.x until `eslint-plugin-import` and `eslint-plugin-react` support ESLint 10.
+- TypeScript stays on 6.x until `typescript-eslint` supports 6.1+ / 7.
 
 ## Author
 
