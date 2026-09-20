@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext 'src/**/*.{ts,tsx,js,jsx}' --report-unused-disable-directives --max-warnings=0 --ignore-pattern .gitignore .",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings=0",
     "lint:fix": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,md}'",
     "check": "npm run lint && npm run format -- --check"
